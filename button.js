@@ -6,7 +6,7 @@ buttonOne.addEventListener("click", function () {
   let firstEvent = document.createElement("div");
   displayFirstEvent.innerHTML = "";
 
-  displayFirstEvent.style.color = selectFontColor();
+  displayFirstEvent.style.color = generateRandomColor();
   firstEvent.innerHTML = "Hello World!";
   displayFirstEvent.appendChild(firstEvent);
 });
