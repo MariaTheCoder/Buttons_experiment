@@ -9,8 +9,5 @@ function generateRandomColor() {
     count++;
   }
 
-//   console.log(randomDigit);
-
   return fontColor;
-  // Use array.toString() to make array to string. Get rid of commas
 }
