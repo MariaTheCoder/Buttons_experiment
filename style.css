@@ -3,3 +3,17 @@ body {
     margin-top: 10mm;
     margin-left: 20mm;
 }
+#display_first_event {
+    /* color: red; */
+    font-weight: bolder;
+}
+#btn-1 {
+    color: #00c; 
+}
+#btn-1:focus {
+    color: #cc0;
+}
+#btn-1:hover {
+    color: red;
+    font-style: oblique;
+}
