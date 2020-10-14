@@ -28,3 +28,11 @@ function quack() {
   let sound = new Audio('./quack.mp3');
   sound.play();
 }
+
+// mock async function
+function somethingsHappening(callback) {
+  return setTimeout(() => {
+    alert("You clicked me 2 seconds ago!");
+    if(callback) callback();
+  }, 2000);
+}
