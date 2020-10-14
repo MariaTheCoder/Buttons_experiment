@@ -3,6 +3,15 @@ body {
     margin-top: 10mm;
     margin-left: 20mm;
 }
+.buttons {
+    border: none;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: flexbox;
+    margin-left: 15px;
+    margin-right: 15px;
+}
 #display_first_event {
     /* color: red; */
     font-weight: bolder;
@@ -16,4 +25,9 @@ body {
 #btn-1:hover {
     color: red;
     font-style: oblique;
+}
+#img {
+    display: none;
+    height: 208px;
+    width: 315px;
 }
