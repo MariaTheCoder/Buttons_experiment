@@ -27,6 +27,18 @@ body {
     color: red;
     font-style: oblique;
 }
+#btn-4 {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btn-4 > img {
+    width: 25px;
+    height: auto;
+    margin-right: 1rem
+}
 #img {
     display: none;
     height: 208px;
