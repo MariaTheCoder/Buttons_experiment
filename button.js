@@ -1,6 +1,7 @@
 const buttonOne = document.getElementById("btn-1");
 const buttonTwo = document.getElementById("btn-2");
 const buttonThree = document.getElementById("btn-3");
+const buttonFour = document.getElementById("btn-4");
 
 buttonOne.addEventListener("click", function () {
   let displayFirstEvent = document.getElementById("display_first_event");
